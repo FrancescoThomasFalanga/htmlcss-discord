@@ -140,8 +140,72 @@ main {
 
 div.big-container {
     display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     background-color: black;
+}
+
+
+
+
+.ios-button {
+    width: 590px;
+    height: 150px;
+}
+
+.white-space {
+    width: 590px;
+    height: 150px;
+    background-color: white;
+}
+
+.ios-image {
+    width: 590px;
+    height: 500px;
+    background-color: blue;
+}
+
+.android-button {
+    width: 590px;
+    height: 500px;
+    background-color: #5865f2;
+}
+
+.linux-button {
+    width: 590px;
+    height: 150px;
+    background-color: green;
+}
+
+.android-image {
+    width: 590px;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.linux-image {
+    width: 590px;
+    height: 500px;
+    background-color: orange;
+}
+
+.mac-button {
+    width: 590px;
+    height: 500px;
+    background-color: orangered;
+}
+
+.paragraph-bottom {
+    width: 590px;
+    height: 150px;
+    background-color: blue;
+}
+
+.adv-button {
+    width: 590px;
+    height: 150px;
+    background-color: brown;
 }
