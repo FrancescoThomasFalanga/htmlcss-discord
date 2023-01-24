@@ -208,6 +208,7 @@ h2 {
     gap: 10px;
     width: 590px;
     height: 150px;
+    padding-top: 60px;
     background-color: #f6f6f6;
 }
 /* -------------------------------*/
@@ -226,6 +227,7 @@ h2 {
     align-items: center;
     width: 590px;
     height: 500px;
+    padding-bottom: 70px;
     background-color: #f6f6f6;
 }
 /* -------------------------------*/
