@@ -20,10 +20,24 @@ header.background-img {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     height: 680px;
-
+}
+/* -------------------------------*/
+#no-wave-margin {
+        background: url("../img/wave.png") no-repeat;
+        overflow: hidden;
+        background-size: cover;
+        width: 100%;
+        min-height: 100px;
+}
+/* -------------------------------*/
+#no-wave-margin-capo {
+    background: url("../img/wave-capo.png") no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    min-height: 100px;
 }
 /* /general settings */
-
 
 /* nav */
 #nav-container {
@@ -150,6 +164,8 @@ a.secondary-button {
 /* medium section */
 .medium-container {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 /* -------------------------------*/
 .middle-section {
