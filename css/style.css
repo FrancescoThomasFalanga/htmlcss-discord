@@ -23,18 +23,14 @@ header.background-img {
 }
 /* -------------------------------*/
 #no-wave-margin {
-        background: url("../img/wave.png") no-repeat;
-        overflow: hidden;
-        background-size: cover;
-        width: 100%;
-        min-height: 100px;
+    background: url("../img/wave.png") no-repeat;
+    background-size: cover;
+    min-height: 100px;
 }
 /* -------------------------------*/
 #no-wave-margin-capo {
     background: url("../img/wave-capo.png") no-repeat;
-    overflow: hidden;
     background-size: cover;
-    width: 100%;
     min-height: 100px;
 }
 /* /general settings */
@@ -49,13 +45,7 @@ header.background-img {
 /* -------------------------------*/
 #logo {
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-/* -------------------------------*/
-a.discord-button {
-    background-image: url(../img/logo.svg);
-    background-repeat: no-repeat;
 }
 
 /* link list */
@@ -87,7 +77,6 @@ li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 130px;
 }
 /* -------------------------------*/
 a#login-border {
@@ -108,32 +97,25 @@ a#login-border {
     align-items: center;
     flex-direction: column;
     height: 600px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 /* -------------------------------*/
 .title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 32px;
 }
 /* -------------------------------*/
 .paragraph-text {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 800px;
     height: 33%;
     text-align: center;
     font-size: 18px;
-    font-weight: 500;
     line-height: 30px;
 }
 /* -------------------------------*/
 .download-open {
     display: flex;
-    justify-content: center;
     align-content: center;
     flex-flow: row wrap;
     gap: 20px;
@@ -174,14 +156,12 @@ a.secondary-button {
 /* -------------------------------*/
 .medium-row {
     display: flex;
-    height: 680px;
     padding: 120px 0;
 }
-
+/* -------------------------------*/
 .medium-row-middle {
     display: flex;
     flex-direction: row-reverse;
-    height: 680px;
     padding: 120px 0;
 }
 /* -------------------------------*/
