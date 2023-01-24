@@ -75,28 +75,34 @@ a#login-border {
 /* header */
 .main-row {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     height: 600px;
     width: auto;
     padding-top: 120px;
     padding-bottom: 120px;
-
-    /* test */
-    background-color: blue;
 }
 /* -------------------------------*/
 
 /* test */
 .title {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 33%;
-    background-color: black;
 }
 /* -------------------------------*/
 .paragraph-text {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
     height: 33%;
-    background-color: yellow;
+}
+/* -------------------------------*/
+p.paragraph-title {
+    text-align: center;
 }
 /* -------------------------------*/
 .download-open {
@@ -104,11 +110,28 @@ a#login-border {
     justify-content: center;
     align-content: center;
     flex-flow: row wrap;
-    width: 100%;
+    gap: 20px;
     height: 33%;
-    background-color: orange;
 }
-/* /test */
+/* -------------------------------*/
+a.primary-button {
+    
+    border-radius: 40px;
+    padding: 18px 36px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+/* -------------------------------*/
+a.secondary-button {
+    border-radius: 40px;
+    padding: 18px 36px;
+    text-decoration: none;
+    background-color: #23272a;
+    color: white;
+    font-size: 20px;
+}
 
 /* /header */
 
