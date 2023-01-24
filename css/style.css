@@ -4,30 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    color: white;
+}
 /* -------------------------------*/
 .common-container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
+/* -------------------------------*/
+header.background-img {
+    background-image: url(../img/jumbo.png);
+    height: 680px;
+}
 /* /general settings */
 
 
 /* nav */
-.bg-image {
-    display: flex;
-    width: auto;
-    height: 80px;
-
-    /* test */
-    background-color: blue;
-}
-/* -------------------------------*/
-.bg-image1 {
-    /* test */
-    background-color: blue;
-}
-/* -------------------------------*/
 #nav-container {
     display: flex;
     flex-direction: row;
@@ -35,14 +30,14 @@
 
     width: 100%;
     height: 80px;
-    /* test */
-    background-color: greenyellow;
 }
 /* -------------------------------*/
 #logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 130px;
-    /* test */
-    background-color: darkgreen;
+    height: 80px;
 }
 
 /* link list */
@@ -53,27 +48,26 @@
 /* -------------------------------*/
 #links ul {
     display: flex;
-    gap: 30px;
+    flex-flow: row wrap;
+    gap: 35px;
     list-style-type: none;
-    
-    /* test */
-    background-color: greenyellow;
-}
-/* -------------------------------*/
-#links li {
-    width: 65px;
-    height: 35px;
-
-    /* test */
-    background-color: brown;
 }
 /* /link list */
 
 #login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 130px;
-    
-    /* test */
-    background-color: darkgreen;
+}
+/* -------------------------------*/
+a#login-border {
+    background-color: white;
+    border-radius: 40px;
+    padding: 13px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #23272a;
 }
 /* /nav */
 
