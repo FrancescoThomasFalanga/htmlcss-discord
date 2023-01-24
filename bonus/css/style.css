@@ -96,10 +96,6 @@ a#login-border {
     padding: 120px 40px;
 }
 /* -------------------------------*/
-
-/* -------------------------------*/
-
-/* -------------------------------*/
 h1 {
     font-family: 'Noto Sans', sans-serif;
     font-size: 56px;
@@ -109,7 +105,7 @@ h1 {
 div.margin-top-bottom {
     margin: 40px 0 16px;
 }
-
+/* -------------------------------*/
 .paragraph-text {
     font-size: 20px;
 }
@@ -128,16 +124,18 @@ a.primary-button {
     color: white;
     font-size: 20px;
 }
-
+/* -------------------------------*/
 img.first-image {
     width: 580px;
 }
 /* /header */
 
+
+/* main */
 main {
     padding: 120px 0;
 }
-
+/* -------------------------------*/
 div.big-container {
     display: flex;
     flex-flow: row wrap;
@@ -145,67 +143,233 @@ div.big-container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
+    background-color: #f6f6f6;
 }
-
-
-
-
+/* -------------------------------*/
+.common-border {
+    border-radius: 40px;
+    padding: 16px 32px;
+    text-decoration: none;
+    background-color: #23272a;
+    color: white;
+    font-size: 24px;
+}
+/* -------------------------------*/
+h2 {
+    color: black;
+    font-size: 28px;
+}
+/* -------------------------------*/
 .ios-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     width: 590px;
     height: 150px;
 }
-
+/* -------------------------------*/
 .white-space {
     width: 590px;
     height: 150px;
-    background-color: white;
+    background-color: #f6f6f6;
 }
-
+/* -------------------------------*/
 .ios-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     width: 590px;
     height: 500px;
-    background-color: blue;
+    background-color: #f6f6f6;
 }
-
+/* -------------------------------*/
 .android-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
     width: 590px;
     height: 500px;
-    background-color: #5865f2;
+    background-color: #f6f6f6;
 }
-
+/* -------------------------------*/
 .linux-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     width: 590px;
     height: 150px;
-    background-color: green;
+    background-color: #f6f6f6;
 }
-
+/* -------------------------------*/
 .android-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 590px;
     height: 150px;
-    background-color: blueviolet;
+    background-color: #f6f6f6;
 }
-
+/* -------------------------------*/
 .linux-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 590px;
     height: 500px;
-    background-color: orange;
+    background-color: #f6f6f6;
 }
-
+/* -------------------------------*/
 .mac-button {
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    align-items: center;
+    gap: 10px;
     width: 590px;
     height: 500px;
-    background-color: orangered;
+    background-color: #f6f6f6;
 }
-
+/* -------------------------------*/
 .paragraph-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
     width: 590px;
     height: 150px;
-    background-color: blue;
+    background-color: #f6f6f6;
+}
+/* -------------------------------*/
+.adv-paragraph {
+    text-align: center;
+    color: black;
+    width: 450px;
+}
+/* -------------------------------*/
+.mac-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 590px;
+    height: 150px;
+    background-color: #f6f6f6;
+}
+/* -------------------------------*/
+.adv-button {
+    display: flex;
+    justify-content: center;
+    width: 590px;
+    height: 150px;
+    background-color: #f6f6f6;
+}
+/* /main */
+
+
+/* footer */
+.support-info-container {
+    display: flex;
+    flex-direction: column;
+    height: 575px;
+    padding-top: 80px;
+    padding-bottom: 65px;
+    background-color: #23272a;
+}
+/* -------------------------------*/
+.support-row {
+    display: flex;
+    gap: 10px;
+    height: 360px;
 }
 
-.adv-button {
-    width: 590px;
-    height: 150px;
-    background-color: brown;
+/* language and social */
+.lan-and-social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 280px;
+    margin-bottom: 55px;
+    color: #385beb;
+    font-size: 30px;
 }
+/* -------------------------------*/
+img.languages {
+    width: 25px;
+    height: 18px;
+}
+/* -------------------------------*/
+.no-decoration {
+    text-decoration: none;
+}
+/* -------------------------------*/
+div.social-img-gap {
+    display: flex;
+    gap: 15px;
+}
+/* -------------------------------*/
+.social {
+    width: 25px;
+    height: 25px;
+}
+/* /language and social */
+
+/* all-support */
+.all-support {
+    width: 180px;
+    margin-bottom: 30px;
+}
+/* -------------------------------*/
+.block {
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+/* -------------------------------*/
+a.block:hover {
+    text-decoration: underline;
+}
+/* -------------------------------*/
+h5.different-color {
+    color: #385beb;
+}
+/* /all-support */
+
+hr {
+    height: 1px;
+    background-color: #5865f2;
+    border: none;
+}
+
+/* discord-logo and signup */
+.logo-and-signup {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* -------------------------------*/
+a.signup-button {
+    border-radius: 40px;
+    padding: 12px 18px;
+    text-decoration: none;
+    background-color: #5865f2;
+    color: white;
+    font-size: 14px;
+}
+a.discord-button {
+    width: 150px;
+    height: 40px;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+}
+/* /discord logo and signup */
+/* /footer */
