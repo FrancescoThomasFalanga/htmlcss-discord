@@ -18,7 +18,9 @@ body {
 /* -------------------------------*/
 header.background-img {
     background-image: url(../img/jumbo.png);
+    background-size: cover;
     height: 680px;
+
 }
 /* /general settings */
 
