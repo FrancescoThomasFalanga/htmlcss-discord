@@ -319,16 +319,28 @@ a.small-button {
 .lan-and-social {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     width: 280px;
     margin-bottom: 55px;
-    color: #385beb;
+    color: #5865f2;
     font-size: 30px;
 }
 /* -------------------------------*/
-img.languages {
+.lan-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+/* -------------------------------*/
+img.languages-img {
     width: 25px;
     height: 18px;
+}
+/* -------------------------------*/
+a.language {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
 }
 /* -------------------------------*/
 .no-decoration {
@@ -365,7 +377,8 @@ a.block:hover {
 }
 /* -------------------------------*/
 h5.different-color {
-    color: #385beb;
+    color: #5865f2;
+    font-weight: normal;
 }
 /* /all-support */
 
