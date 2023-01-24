@@ -7,6 +7,7 @@
 
 body {
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 /* -------------------------------*/
 .common-container {
@@ -309,40 +310,91 @@ a.small-button {
 /* -------------------------------*/
 .support-row {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     height: 360px;
-    background-color: red;
 }
-
 
 /* language and social */
 .lan-and-social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 280px;
     margin-bottom: 55px;
-    /* test */
-    background-color: orange;
+    color: #385beb;
+    font-size: 30px;
+}
+/* -------------------------------*/
+img.languages {
+    width: 25px;
+    height: 18px;
+}
+/* -------------------------------*/
+.no-decoration {
+    text-decoration: none;
+}
+/* -------------------------------*/
+div.social-img-gap {
+    display: flex;
+    gap: 15px;
+}
+/* -------------------------------*/
+.social {
+    width: 25px;
+    height: 25px;
 }
 /* /language and social */
-
 
 /* all-support */
 .all-support {
     width: 180px;
     margin-bottom: 30px;
-
-    /* test */
-    background-color: orange;
+}
+/* -------------------------------*/
+.block {
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+/* -------------------------------*/
+a.block:hover {
+    text-decoration: underline;
+}
+/* -------------------------------*/
+h5.different-color {
+    color: #385beb;
 }
 /* /all-support */
 
+hr {
+    height: 1px;
+    background-color: #5865f2;
+    border: none;
+}
 
 /* discord-logo and signup */
 .logo-and-signup {
+    padding-top: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
-    background-color: orange;
+}
+/* -------------------------------*/
+a.signup-button {
+    border-radius: 40px;
+    padding: 12px 18px;
+    text-decoration: none;
+    background-color: #5865f2;
+    color: white;
+    font-size: 14px;
+}
+a.discord-button {
+    width: 150px;
+    height: 40px;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
 }
 /* /discord logo and signup */
 /* /footer */
