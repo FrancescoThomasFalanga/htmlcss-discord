@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* -------------------------------*/
 body {
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -28,8 +28,6 @@ header.background-img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    width: 100%;
     height: 80px;
 }
 /* -------------------------------*/
@@ -40,8 +38,6 @@ header.background-img {
 }
 /* -------------------------------*/
 a.discord-button {
-    width: 150px;
-    height: 40px;
     background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
 }
@@ -96,7 +92,6 @@ a#login-border {
     align-items: center;
     flex-direction: column;
     height: 600px;
-    width: auto;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -130,7 +125,6 @@ a#login-border {
 }
 /* -------------------------------*/
 a.primary-button {
-    
     border-radius: 40px;
     padding: 18px 36px;
     text-decoration: none;
@@ -147,24 +141,21 @@ a.secondary-button {
     color: white;
     font-size: 20px;
 }
-
 /* /header */
 
 
 /* main */
 /* medium section */
-div.medium-container {
+.medium-container {
     display: flex;
-    width: auto;
-    height: 680px;
 }
+/* -------------------------------*/
 .middle-section {
     background-color: #f6f6f6;
 }
 /* -------------------------------*/
 .medium-row {
     display: flex;
-    width: 100%;
     height: 680px;
     padding: 120px 0;
 }
@@ -172,14 +163,8 @@ div.medium-container {
 .medium-row-middle {
     display: flex;
     flex-direction: row-reverse;
-    width: 100%;
     height: 680px;
     padding: 120px 0;
-}
-/* -------------------------------*/
-.medium-img {
-    width: 678px;
-    height: 440px;
 }
 /* -------------------------------*/
 .caption-ft {
@@ -187,8 +172,6 @@ div.medium-container {
     flex-direction: column;
     align-items: center;
     padding-left: 100px;
-    width: 100%;
-    height: 100%;
 }
 /* -------------------------------*/
 .caption-s {
@@ -196,11 +179,8 @@ div.medium-container {
     flex-direction: column;
     align-items: center;
     padding-right: 100px;
-    width: 100%;
-    height: 100%;
 }
 
-/* test */
 div.paragraph-title {
     padding-top: 30px;
     padding-bottom: 20px;
@@ -217,16 +197,11 @@ div.paragraph {
 /* big section */
 div.big-container {
     display: flex;
-    width: auto;
-    height: 1200px;
-
-    /* test */
     background-color: #f6f6f6;
 }
 /* -------------------------------*/
 .big-row {
     display: flex;
-    width: 100%;
     height: 1200px;
     padding-top: 120px;
     padding-bottom: 80px;
@@ -236,8 +211,6 @@ div.big-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    height: 100%;
     gap: 30px;
 }
 /* -------------------------------*/
@@ -270,10 +243,7 @@ div.big-container {
 /* small section */
 div.small-container {
     display: flex;
-    width: auto;
     height: 280px;
-
-    /* test */
     background-color: #f6f6f6;
 }
 /* -------------------------------*/
@@ -283,7 +253,6 @@ div.small-container {
     align-items: center;
     flex-direction: column;
     gap: 50px;
-    width: auto;
     margin-bottom: 120px;
 }
 /* -------------------------------*/
@@ -316,7 +285,6 @@ a.small-button {
 .support-info-container {
     display: flex;
     flex-direction: column;
-    width: auto;
     height: 575px;
     padding-top: 80px;
     padding-bottom: 65px;
