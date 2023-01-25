@@ -87,6 +87,18 @@ a#login-border {
     text-decoration: none;
     color: #23272a;
 }
+/* -------------------------------*/
+a[class*="button"]:hover {
+    background-color: #7983f5;
+}
+/* -------------------------------*/
+a[class*="primary-button"]:hover {
+    background-color: #ffffff9f;
+}
+/* -------------------------------*/
+a[class*="secondary-button"]:hover {
+    background-color: #36393f;
+}
 /* /nav */
 
 
@@ -384,7 +396,7 @@ a.signup-button {
     color: white;
     font-size: 14px;
 }
-a.discord-button {
+a.discord-logo {
     width: 150px;
     height: 40px;
     background-image: url(../img/logo.svg);
