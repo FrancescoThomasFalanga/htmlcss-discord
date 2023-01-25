@@ -134,22 +134,21 @@ a[class*="secondary-button"]:hover {
     height: 33%;
 }
 /* -------------------------------*/
-a.primary-button {
+.primary-button, .secondary-button {
     border-radius: 40px;
     padding: 18px 36px;
     text-decoration: none;
-    background-color: white;
-    color: black;
     font-size: 20px;
 }
 /* -------------------------------*/
+a.primary-button {
+    background-color: white;
+    color: black;
+}
+/* -------------------------------*/
 a.secondary-button {
-    border-radius: 40px;
-    padding: 18px 36px;
-    text-decoration: none;
     background-color: #23272a;
     color: white;
-    font-size: 20px;
 }
 /* /header */
 
@@ -177,17 +176,17 @@ a.secondary-button {
     padding: 120px 0;
 }
 /* -------------------------------*/
-.caption-ft {
+.caption-ft, .caption-s {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+/* -------------------------------*/
+.caption-ft {
     padding-left: 100px;
 }
 /* -------------------------------*/
 .caption-s {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-right: 100px;
 }
 
@@ -212,9 +211,8 @@ div.big-container {
 /* -------------------------------*/
 .big-row {
     display: flex;
-    height: 1200px;
     padding-top: 120px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 /* -------------------------------*/
 .big-section-row {
@@ -253,13 +251,11 @@ div.big-container {
 /* small section */
 div.small-container {
     display: flex;
-    height: 280px;
     background-color: #f6f6f6;
 }
 /* -------------------------------*/
 .small-row {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 50px;
